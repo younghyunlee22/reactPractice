@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Hello from "./Hello";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Hello />
   );
 }
 
 export default App;
+
+// index.js - 만들어진 컴포넌트를 껍데기에 넣는 역할
+// App.js - 컴포넌트를 하나로 만드는 것
